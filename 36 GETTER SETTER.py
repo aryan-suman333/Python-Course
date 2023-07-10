@@ -4,7 +4,7 @@ class Employee:
 	salary_bonus = 500
 
 			  # isko define as a func kiya h but ye salary or company jese ek class
-	@property # attribute(property) h @prperty ko getter bhi bolte h
+	@property # attribute(property) h @property ko getter bhi bolte h
 	def total_salary(self):
 		return self.salary + self.salary_bonus
 
